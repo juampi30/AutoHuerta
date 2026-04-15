@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "huella de stm32")(type "KiCad")(uri "${KIPRJMOD}/huella de stm32.pretty")(options "")(descr ""))
+)
