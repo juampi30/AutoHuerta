@@ -1,4 +1,4 @@
-23336342994377995
+23339897078973546
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56965,6 +56965,20 @@ heatsink
 0
 0
 0
+Huellas
+Logo
+
+
+0
+0
+0
+Huellas
+stm32
+
+
+0
+40
+40
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -87632,6 +87646,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SRD-05VDC-SL-C
+RELAY_SRD-05VDC-SL-C
+
+
+0
+5
+5
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -95339,10 +95360,3 @@ Varistor VF
 0
 2
 2
-huella de stm32
-stm32
-
-
-0
-40
-40
