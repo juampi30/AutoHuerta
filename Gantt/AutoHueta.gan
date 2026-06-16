@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-03-23" view-index="0" gantt-divider-location="421" resource-divider-location="300" version="3.3.3322" locale="es_AR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-05-11" view-index="0" gantt-divider-location="392" resource-divider-location="300" version="3.3.3322" locale="es_ES">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
-        <field id="tpd3" name="Name" width="219" order="0"/>
-        <field id="tpd4" name="Begin date" width="77" order="1"/>
-        <field id="tpd5" name="End date" width="72" order="2"/>
-        <field id="tpd15" name="Notes" width="20" order="3"/>
-        <field id="tpd6" name="Duration" width="52" order="3"/>
+        <field id="tpd3" name="Nombre" width="203" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="72" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="67" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <field id="tpd6" name="Duración" width="49" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[1,3,7,8,4,9,5,6,2]]></timeline>
+        <timeline><![CDATA[9,5,8,7,4,6,1,2,3]]></timeline>
         <option id="color.recent"><![CDATA[#ff0033 #006699 #1608c0 #00bd16 #994e05 #ffff00 #ccffcc #00ff33]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -41,7 +41,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="88e6fa29db3c4ffea91b1f4e62bedde0" name="AutoHuerta" meeting="false" start="2026-03-27" duration="63" complete="0" expand="true">
+        <task id="0" uid="88e6fa29db3c4ffea91b1f4e62bedde0" name="AutoHuerta" meeting="false" start="2026-03-27" duration="81" complete="0" expand="true">
             <task id="1" uid="d482945bf9a243a7a2056ea45ef2d0ae" name="Investigacion" meeting="false" start="2026-03-27" duration="7" complete="0" expand="true">
                 <depend id="2" type="2" difference="0" hardness="Strong"/>
                 <depend id="3" type="2" difference="0" hardness="Strong"/>
@@ -51,19 +51,19 @@
                 <depend id="9" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="9" uid="535808b42c534cc4952f799650e07b1a" name="Pruebas Plantas" color="#ccffcc" meeting="false" start="2026-04-16" duration="45" complete="0" expand="true"/>
-            <task id="3" uid="2134139007234c328717013e7d6da32a" name="Diseño de Plaqueta" color="#ffff00" meeting="false" start="2026-04-07" duration="21" complete="0" expand="true">
+            <task id="3" uid="2134139007234c328717013e7d6da32a" name="Diseño de Plaqueta" color="#ffff00" meeting="false" start="2026-04-07" duration="39" complete="0" expand="true">
                 <depend id="4" type="2" difference="0" hardness="Strong"/>
                 <depend id="5" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="4" uid="04e22be32425474693da47e8b1c98c7d" name="Armado de Plaqueta" color="#994e05" meeting="false" start="2026-05-06" duration="7" complete="0" expand="true"/>
-            <task id="5" uid="eaba597b46c4443b908f4137d875e19a" name="Progamacion" color="#00bd16" meeting="false" start="2026-05-06" duration="21" complete="0" expand="true">
+            <task id="4" uid="04e22be32425474693da47e8b1c98c7d" name="Armado de Plaqueta" color="#994e05" meeting="false" start="2026-06-01" duration="7" complete="0" expand="true"/>
+            <task id="5" uid="eaba597b46c4443b908f4137d875e19a" name="Progamacion" color="#00bd16" meeting="false" start="2026-06-01" duration="21" complete="0" expand="true">
                 <depend id="7" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="6" uid="89a2fd6d3c3b420b83b1ae455bcc2918" name="Montaje Fisico" color="#1608c0" meeting="false" start="2026-04-07" duration="30" complete="0" expand="true"/>
-            <task id="7" uid="92a8548b60114b7caf1f5aff37751b78" name="Pruebas" color="#006699" meeting="false" start="2026-06-04" duration="7" complete="0" expand="true">
+            <task id="7" uid="92a8548b60114b7caf1f5aff37751b78" name="Pruebas" color="#006699" meeting="false" start="2026-06-30" duration="7" complete="0" expand="true">
                 <depend id="8" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="8" uid="8cada706aa774a7bac9c66c202b3ff3b" name="Informe Final" color="#ff0033" meeting="false" start="2026-06-15" duration="7" complete="0" expand="true"/>
+            <task id="8" uid="8cada706aa774a7bac9c66c202b3ff3b" name="Informe Final" color="#ff0033" meeting="false" start="2026-07-09" duration="7" complete="0" expand="true"/>
         </task>
     </tasks>
     <resources>
