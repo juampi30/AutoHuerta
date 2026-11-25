@@ -1,0 +1,53 @@
+Stm32= salidas de 3,3V y baja corriente de salida
+C3= Capacitor filtro
+
+R1= 330Ω, debido a que el led del optoacoplador es infrarojo (1,2V) y tiene una corriente muy baja
+U2= por la salida del optoacoplador pasa una corriente baja que va a activar a Q1(bc817)
+R2= 1KΩ evita el corto entre 5V y gnd y satura al transistor
+R3= Resistencia pull down
+Q1= cierra el circuito con gnd permitiendo prender el Relay y el led(la corriente maxima entre colector y emisor es mucho menor a la necesaria para prender y apagar el relay)
+D2= diodo de rueda libre para la bobina del relay
+R4= resistencia para el led D1
+D1= led de prendido y apagado del relay
+K1= relay que controla el prendido y apagado de la luz cob-led
+
+C1= Filtro para la entrada del U3(L7805)
+C2= Filtro para la salida del U3(L7805)
+U3= Regulador de tension de 12V a 5V smd con un pad de disipacion de calor
+
+R5= 330Ω, debido a que el led del optoacoplador es infrarojo (1,2V) y tiene una corriente muy baja
+U4= por la salida del optoacoplador pasa una corriente baja que va a activar a Q2(bc817)
+R6= 1KΩ evita el corto entre 5V y gnd y satura al transistor
+R7= Resistencia pull down
+Q2= cierra el circuito con gnd permitiendo prender el motor y el led(la corriente maxima entre colector y emisor es mucho menor a la necesaria para prender y apagar el motor)
+D3= diodo de rueda libre para la bobina del motor
+R4= resistencia para el led D4
+D1= led de prendido y apagado del motor
+
+R9= 330Ω, debido a que el led del optoacoplador es infrarojo (1,2V) y tiene una corriente muy baja
+U6= por la salida del optoacoplador pasa una corriente baja que va a activar a Q3(bc817)
+R10= 1KΩ evita el corto entre 5V y gnd y satura al transistor
+R11= Resistencia pull down
+Q3= cierra el circuito con gnd permitiendo prender el ventilador y el led(la corriente maxima entre colector y emisor es mucho menor a la necesaria para prender y apagar el ventilador)
+D6= diodo de rueda libre para la bobina del ventilador
+R12= resistencia para el led D5
+D5= led de prendido y apagado del ventilador
+
+U5= regulador de tension de 12V a 5V para el motor(circuito aparte del principal de la plaqueta solo utilizado para el motor)
+
+
+Pistas de 1mm para todo el circuito de control
+Pistas de 3mm y estañadas para el relay
+separacion minima entre las pistas de control de 0,4mm
+separacion minima entre las pistas del relay de 0,6mm
+logo de la empresa ficticia (la gota de agua con electronica)
+nombres de los integrantes del proyecto
+nombre de la empresa ficticia
+agujeros de 3mm para atornillar la placa
+jack de 2,1mm para la alimentacion de la placa
+pinera de 10 pines para posterior ampliacion con modulos externos
+diseño doble faz para mayor eficiencia del espacio
+componentes smd para mayor eficiencia del espacio
+diseño de puentes sutiles, aprovechando los pads de los pines
+diseño compacto y separado por modulos en la misma plaqueta
+
